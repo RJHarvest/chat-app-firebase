@@ -1,0 +1,48 @@
+.message-box {
+  display: flex;
+}
+
+.message-box.recieved {
+  flex-direction: row;
+  align-items: center;
+}
+
+.message-box.sent {
+  text-align: right;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.message-box .profile-photo {
+  display: inline-block;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.message-box .text-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  max-width: 50%;
+  background-color: #1a1a1d;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.message-box .text-message .name {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: #999999;
+}
+
+.message-box .text-message .text {
+  font-size: inherit;
+  margin: 0;
+  padding: 0.25rem 0;
+  color: inherit;
+}
