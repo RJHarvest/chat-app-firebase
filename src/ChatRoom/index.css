@@ -1,0 +1,9 @@
+.header, .chat-message {
+  height: 10vh !important;
+}
+
+.chat {
+  height: 80vh !important;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+}
