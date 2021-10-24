@@ -1,0 +1,16 @@
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sign-in .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in .box .logo {
+  height: 200px;
+  width: 200px;
+}
